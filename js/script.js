@@ -8,5 +8,7 @@ linkForm.addEventListener('submit', formSubmit)
 function formSubmit(e){
   e.preventDefault()
 
-  console.log(123)
+  if (input.value === ''){
+    errMsg.innerHTML = 'please enter something'
+  }
 }
