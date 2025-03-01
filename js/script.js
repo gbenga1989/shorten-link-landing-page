@@ -9,6 +9,7 @@ function formSubmit(e){
   e.preventDefault()
 
   if (input.value === ''){
-    errMsg.innerHTML = 'please enter something'
+    errMsg.innerHTML = 'please enter something';
+    input.classList.add('border-red','border-green')
   }
 }
