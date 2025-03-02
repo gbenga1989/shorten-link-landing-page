@@ -10,6 +10,6 @@ function formSubmit(e){
 
   if (input.value === ''){
     errMsg.innerHTML = 'please enter something';
-    input.classList.add('border-red','border-green', 'border-green')
+    input.classList.add('border-red','border-green', 'border-green, fish')
   }
 }
