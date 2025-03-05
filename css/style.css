@@ -1020,7 +1020,7 @@ video {
   height:2px;
   top:0;
   left:0;
-  background:red;
+  background:#9c9aa6;
   transform:rotate(0);
   transition:all 0.5s;
 }
@@ -1039,6 +1039,14 @@ video {
 
 .open .hamburger-top{
   transform:rotate(45deg) translateY(6px) translateX(6px)
+}
+
+.open .hamburger-middle{
+  display:none;
+}
+
+.open .hamburger-bottom{
+  transform:rotate(-45deg) translateY(6px) translateX(-6px)
 }
 
 .hover\:bg-CyanLight:hover {
@@ -1204,3 +1212,4 @@ video {
     margin-bottom: 13rem;
   }
 }
+
