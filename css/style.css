@@ -1029,6 +1029,18 @@ video {
   transform:translateY(7px);
 }
 
+.hamburger-bottom{
+  transform:translateY(14px);
+}
+
+.open{
+  transform:rotate(90deg);
+}
+
+.open .hamburger-top{
+  transform:rotate(45deg) translateY(6px) translateX(6px)
+}
+
 .hover\:bg-CyanLight:hover {
   --tw-bg-opacity: 1;
   background-color: hsl(180 50% 49% / var(--tw-bg-opacity, 1));
